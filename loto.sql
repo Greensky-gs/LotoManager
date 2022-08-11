@@ -1,0 +1,9 @@
+CREATE TABLE loto (
+    guild_id VARCHAR(255) PRIMARY KEY,
+    reward INTEGER(255) NOT NULL,
+    endsAt VARCHAR(1024) NOT NULL,
+    numbers INTEGER(255) NOT NULL DEFAULT "5",
+    complementaries INTEGER(255) NOT NULL DEFAULT "2",
+    json LONGTEXT NOT NULL DEFAULT '[]',
+    ended TINYINT(1) NOT NULL DEFAULT "0"
+);
