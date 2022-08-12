@@ -19,7 +19,7 @@ const Discord = require('discord.js');
 const mysql = require('mysql');
 const token = "your token";
 
-const lotoManager = require('../../../GitHub/LotoManager/LotoManager');
+const lotoManager = require('LotoManager.js');
 
 const client = new Discord.Client({ 
     intents: [  ]
