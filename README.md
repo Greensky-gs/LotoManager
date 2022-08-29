@@ -26,7 +26,7 @@ const client = new Discord.Client({
 });
 
 // here connect your database
-const db = new mysql.createConnection({ 
+const db = mysql.createConnection({ 
     database: 'db',
     user: 'user',
     password: "password",
